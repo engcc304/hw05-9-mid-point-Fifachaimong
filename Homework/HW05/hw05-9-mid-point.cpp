@@ -28,3 +28,19 @@
     Output:
         Mid Point of A and B is ( 4.5, -2.5 )
 */
+#include <stdio.h>
+int main(){
+    int a;
+    int b;
+    int c;
+    int d;
+    printf("Test case:\n");
+    printf("Input A Point :\n");
+    scanf("%d %d",&a ,&b);
+    printf("Input B Point :\n");
+    scanf("%d %d",&c ,&d);
+    float Answer = (a + c) * 0.5 ;
+    float answer = (b + d) * 0.5 ;
+    printf("Output:\n");
+    printf("Mid Point of A and B is ( %.1f, %.1f )",Answer ,answer);
+}
